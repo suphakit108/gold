@@ -95,12 +95,11 @@
 </style>
 
 <body>
-
 	<ul style=" border-bottom: 2px solid #c5c5c5;">
 		<!-- <li><a href="#home">Home</a></li>
 		<li><a href="#news">News</a></li>
 		<li><a href="#contact">Contact</a></li> -->
-		<li style="float:right"><a class="active" href="#about">สมัครสมาชิก</a></li>
+		<li style="float:right"><a class="active" href="register.php">สมัครสมาชิก</a></li>
 	</ul>
 </div>
 <div class="container wall">

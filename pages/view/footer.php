@@ -1,21 +1,10 @@
 
-<!-- jQuery -->
-<script src="../js/jquery.min.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="../js/bootstrap.min.js"></script>
-
-<!-- Metis Menu Plugin JavaScript -->
-<script src="../js/metisMenu.min.js"></script>
-
-<!-- DataTables JavaScript -->
-<script src="../js/dataTables/jquery.dataTables.min.js"></script>
-<script src="../js/dataTables/dataTables.bootstrap.min.js"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="../js/startmin.js"></script>
-<script src="../js/jquery-ui.js"></script>
-<!-- Page-Level Demo Scripts - Tables - Use for reference -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- 
 <script>
 	$(document).ready(function() {
 		$('#dataTables-example').DataTable({
@@ -31,3 +20,4 @@
 
 	});
 </script>
+ -->
