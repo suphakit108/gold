@@ -12,7 +12,7 @@
 					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">จัดกการสมาชิก<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">แอดมิน</a></li>
-							<li><a href="#">พนักงาน</a></li>
+							<li><a href="index.php?app=admin&action=employees">พนักงาน</a></li>
 							<li><a href="index.php?app=admin&action=user">ขอสิทธ์การเข้าถึง</a></li>
 						</ul>
 					</li>

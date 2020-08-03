@@ -63,6 +63,18 @@ function getuser(mysqli $conn){
 		return $data;
 	}
 }
+function getemployees(mysqli $conn){
+	$sql = "SELECT * FROM user WhERE layer = 'Employees'";
+	echo($sql);
+	if ($result = mysqli_query($conn,$sql, MYSQLI_USE_RESULT)) {
+		$data=[];
+		while ($row = mysqli_fetch_array($result,MYSQLI_ASSOC)){
+			$data[] = $row;
+		}
+		$result->close();
+		return $data;
+	}
+}
 function getbranch(mysqli $conn){
 	$sql = "SELECT * FROM branch WhERE 1";
 	// echo($sql);
@@ -88,4 +100,15 @@ function getuserByid(mysqli $conn,$id){
 	}
 }
 
+function updateuser(mysqli $conn,$id,$branch,$layer){
+	$sql = "UPDATE user SET branch = '$branch',layer = '$layer' WhERE user_code = '$id'";
+	// echo($sql);
+	if (mysqli_query($conn, $sql)) {
+		echo "New record created successfully";
+		return true;
+	} else {
+		echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+		return false;
+	}
+}
 ?>
